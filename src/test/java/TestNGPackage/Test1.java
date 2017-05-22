@@ -17,6 +17,7 @@ public class Test1 {
 		driver.findElement(By.name("userName")).sendKeys("tutorial");
 		driver.findElement(By.name("password")).sendKeys("tutorial");
 		driver.findElement(By.name("login")).click();
+		System.out.println(driver.getTitle());
 		
 		driver.close();
 		
