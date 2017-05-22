@@ -19,6 +19,7 @@ public class Test1 {
 		driver.findElement(By.name("login")).click();
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
 		
 		driver.close();
 		
