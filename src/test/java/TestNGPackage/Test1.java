@@ -21,9 +21,36 @@ public class Test1 {
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getTitle());
-		
+		System.out.println(driver.getTitle());
+		printmessage();
 		driver.close();
 		
 	}
 
+	public static void printmessage(){
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		System.out.println("Test");
+		
+	}
+	
 }
