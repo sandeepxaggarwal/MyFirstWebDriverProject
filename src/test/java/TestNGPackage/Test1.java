@@ -11,6 +11,7 @@ public class Test1 {
 	public void doLogin(){
 		System.out.println("Performing the Login operation");
 		System.out.println("Performing the Login operation");
+		System.out.println("Performing the Login operation");
 		WebDriver driver = new FirefoxDriver();
 		
 		driver.get("http://newtours.demoaut.com");
