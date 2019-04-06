@@ -11,8 +11,6 @@ public class Test1 {
 	public void doLogin(){
 		System.out.println("Performing the Login operation");
 		System.out.println("Performing the Login operation");
-		System.out.println("Performing the Login operation");
-		System.out.println("Performing the Login operation");
 		WebDriver driver = new FirefoxDriver();
 		
 		driver.get("http://newtours.demoaut.com");
@@ -20,38 +18,15 @@ public class Test1 {
 		driver.findElement(By.name("password")).sendKeys("tutorial");
 		driver.findElement(By.name("login")).click();
 		System.out.println(driver.getTitle());
-		System.out.println(driver.getTitle());
-		System.out.println(driver.getTitle());
-		System.out.println(driver.getTitle());
-		System.out.println(driver.getTitle());
 		printmessage();
 		driver.close();
+		
 		
 	}
 
 	public static void printmessage(){
 		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
-		System.out.println("Test");
+		
 		
 	}
 	
